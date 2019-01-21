@@ -1,9 +1,9 @@
 package com.bill.bottomsheetproject;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.WindowManager;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,5 +21,10 @@ public class MainActivity extends AppCompatActivity {
     public void handleClick2(View view) {
         SlideManager2 manager = new SlideManager2(this);
         manager.show();
+    }
+
+    public void handleClick3(View view) {
+        Intent intent = new Intent(this, ImageActivity.class);
+        startActivity(intent);
     }
 }

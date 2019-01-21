@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">BottomSheetProject</string>
 
+
+    <string name="my_bottom_sheet_behavior">com.bill.bottomsheetproject.MyBottomSheetBehavior</string>
+
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
